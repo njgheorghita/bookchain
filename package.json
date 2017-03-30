@@ -1,0 +1,32 @@
+{
+  "name": "bookchain",
+  "version": "1.0.0",
+  "description": "A decentralized virtual library to keep track of your centralized physical library",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njgheorghita/bookchain.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Nick Gheorghita, Robbie Smith, Jesse Shipley, Caroline Powell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njgheorghita/bookchain/issues"
+  },
+  "homepage": "https://github.com/njgheorghita/bookchain#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
