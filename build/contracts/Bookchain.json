@@ -1,0 +1,14 @@
+{
+  "contract_name": "Bookchain",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052346000575b5b5b60358060186000396000f30060606040525b60005600a165627a7a7230582000a61a18403b522738063f7c1d341211201d31fb10a2f1e27d73bed303bb8f8b0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1490828257751
+}

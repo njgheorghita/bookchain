@@ -1,12 +1,12 @@
 var Book = artifacts.require("../contracts/Book.sol");
 
 contract('Book', function(accounts) {
-  var varName = "name";
   it('should be created with a name', function() {
-    return Book.deployed().then(function(bookInstance) {
-      return bookInstance.create().call(varName);
+    var book = Book.new("Moby Dick", "Van Dyke");
+    return book.then(function(instance) {
+      return instance.name.call();
     }).then(function(name) {
-      assert.equal(name, varName);
+      assert.equal(web3.toAscii(name).substring(0,9), "Moby Dick")
     });
   });
 });

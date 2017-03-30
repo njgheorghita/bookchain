@@ -1,0 +1,134 @@
+{
+  "contract_name": "Book",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "checkout",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "status",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "returnBook",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "borrower",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "isAvailable",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "author",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "_name",
+          "type": "bytes32"
+        },
+        {
+          "name": "_author",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000576040516040806103398339810160405280516020909101515b60028054600160a060020a03191633600160a060020a0316179055600082905560018190556003805460a060020a60ff02191690555b50505b6102cf8061006a6000396000f300606060405236156100725763ffffffff60e060020a60003504166306099d69811461007757806306fdde03146100a5578063200d2ed2146100c4578063772aaeb5146100f25780637df1f1b914610120578063856c71dd146101495780638da5cb5b1461016a578063a6c3e6b914610193575b610000565b34610000576100846101b2565b6040518082600181116100005760ff16815260200191505060405180910390f35b34610000576100b2610208565b60408051918252519081900360200190f35b346100005761008461020e565b6040518082600181116100005760ff16815260200191505060405180910390f35b346100005761008461021e565b6040518082600181116100005760ff16815260200191505060405180910390f35b346100005761012d61024c565b60408051600160a060020a039092168252519081900360200190f35b346100005761015661025b565b604080519115158252519081900360200190f35b346100005761012d61028e565b60408051600160a060020a039092168252519081900360200190f35b34610000576100b261029d565b60408051918252519081900360200190f35b60008060035460ff60a060020a90910416600181116100005714156101f6576003805474ff0000000000000000000000000000000000000000191660a060020a1790555b5060035460a060020a900460ff165b90565b60005481565b60035460a060020a900460ff1681565b6003805474ff000000000000000000000000000000000000000019169081905560a060020a900460ff165b90565b600354600160a060020a031681565b60008060035460ff60a060020a909104166001811161000057141561028257506001610205565b506000610205565b5b90565b600254600160a060020a031681565b600154815600a165627a7a723058206a2f551b9a74ef134b1d47c7c9d1aec7fddc80fed70a13d35a9f896e8a68d5220029",
+  "networks": {
+    "1490828015711": {
+      "events": {},
+      "links": {},
+      "address": "0x46b483915d96d9b133bb575c27cb6caed0194de7",
+      "updated_at": 1490828258347
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1490828258347
+}
